@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.HomeContainer{
+  /* border: 2px solid red; */
+  height: auto;
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 50px;
+}

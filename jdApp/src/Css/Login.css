@@ -1,0 +1,124 @@
+.LoginTop2bar{
+    padding: 7px 0;
+    background-color: #FFF8F0;
+}
+.LoginTop2bar>p{
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+.LoginTop2bar>p>i{
+    color: red;
+    font-size: 18px;
+}
+#banner-bg{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#banner-bg>div{
+    /* border: 2px solid blue; */
+    position: relative;
+    left: 15%;
+}
+#banner-bg>div>form{
+    background-color: #f7f5f2;
+    border: 2px solid red;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+   
+}
+#banner-bg>div>form>div:nth-child(1){
+    /* border: 2px solid blue; */
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner-bg>div>form>div:nth-child(1)>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+#banner-bg>div>form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#banner-bg>div>form>div>input,.input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(164, 164, 164);
+    outline: none;
+    padding: 0 10px;
+}
+#banner-bg>div>form>.button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10px;
+    background-color: #E93854;
+    font-size: 20px;
+    color: rgb(241, 241, 241);
+}
+.LoginFooter{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginFooter>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 13px;
+    color: grey;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.LoginBottom{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+}
+@media all and (max-width: 650px){
+    #banner-bg>div{
+
+        left: 0;
+    }
+}
+@media all and (max-width:425px){
+    #banner-bg>div>form{
+        width: 100%;
+    }
+    #banner-bg>div>form>div>input,.input{
+        width: 90%;
+    }
+    #banner-bg>div>form>.button{
+        width: 90%;
+    }
+}

@@ -1,0 +1,279 @@
+.HomeContainer{
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+.section1{
+    display: flex;
+    gap: 10px;
+
+}
+.section1>div:nth-child(1){
+    /* border: 2px solid blue; */
+    width: 18%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+.section1>div>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    list-style: none;
+    gap: 10px;
+}
+.section1>div>ul>li{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(52, 52, 52);
+}
+.section1>div>ul>li:hover{
+    color: red;
+}
+.section1>div:nth-child(2){
+    /* border: 2px solid red; */
+    width: 62%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+}
+.section1>div:nth-child(2)>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img>div>img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.section1>div:nth-child(3){
+    /* border: 2px solid blue; */
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    padding: 0 15px;
+}
+.box1{
+    /* border: 2px solid red;  */
+    gap: 10px;
+    display: flex;  
+    flex-wrap: wrap; 
+    padding: 20px 0;
+}
+.box1>div:nth-child(1){
+    border: 1px solid grey;
+    padding: 3px;
+    height: 29%;
+    width: 29%;
+    border-radius: 50%;
+}
+.box1>div:nth-child(1)>img{
+    border: 2px solid rgb(184, 182, 182);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box1>div:nth-child(2) p{
+    font-size: 13px;
+    font-weight: 600;
+    color: grey;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.box1>div:nth-child(2) p span:hover{
+    color: red;
+    cursor: pointer;
+}
+.box1>div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+}
+.box1>div:nth-child(3)>button:nth-child(1){
+    border: none;
+    border-radius: 15px;
+    background-color: #E1251B;
+    color: #FFFFFF;
+    width: 100%;
+    height: 30px;
+    padding: 10px 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 0%;
+
+}
+.box1>div:nth-child(3)>button:nth-child(2){
+    border: none;
+    border-radius: 15px;
+    background-color: #363634;
+    color: #E3D799;
+    width: 100%;
+    height: 30px;
+    padding: 10px 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 100%;
+}
+.box2{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 7px;
+}
+.box2>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2 p{
+    font-size: 10px;
+    font-weight: 600;
+    color: grey;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.box2 p:hover{
+    color: red;
+    cursor: pointer;
+}
+.box3{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.box3>div{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 0;
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.box3>div>div{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 35%;
+    cursor: pointer;
+}
+.box3>div>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box3>div>p{
+    /* border: 2px solid blue; */
+    width: 100%;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 600;
+    color: grey;
+
+}
+.box4{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.box4>div{
+    /* border: 2px solid blue; */
+    width: 20%;
+    height: 20%;
+    position: relative;
+    right: 10%;
+    cursor: pointer;
+}
+.middleText{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    padding: 40px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.middleText>p{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.middleText>span{
+    font-size: 40px;
+    font-weight: bolder;
+    color: grey;
+}
+.section2{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section2>div{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.section2>div>img:hover{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    translate: 0 -5px;
+    transition: 0.5s;
+}
+.section3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section3>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 10px;
+    cursor: pointer;
+}
+.section4{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+

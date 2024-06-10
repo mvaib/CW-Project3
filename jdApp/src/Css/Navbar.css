@@ -1,0 +1,60 @@
+.NavbarContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    /* border: 2px solid blue; */
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+}
+.nav div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: small;
+    gap: 20px;
+}
+.nav div input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 20, 20);
+    outline: none;
+    padding: 0 10px;
+}
+.nav div ul+input+i{
+    border-radius: 5px;
+    border: 2px solid rgb(255, 20, 20);
+    outline: none;
+    background-color: rgb(255, 20, 20);
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.button button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(210, 208, 208);
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    color: rgb(236, 12, 12);
+    font-weight: bold;;
+    font-size: 14px;
+    cursor: pointer;
+}
+@media all and (max-width: 1200px) {
+    .NavbarContainer{
+        display: block;
+    }
+}

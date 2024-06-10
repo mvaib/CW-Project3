@@ -1,0 +1,69 @@
+.FooterContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 237, 237);
+
+}
+.FooterContainer div{
+    /* border: 2px solid blue; */
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(238, 237, 237);
+}
+.FooterContainer>div>div>ul{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.FooterContainer>div>div>ul>li{
+    font-size: 22px;
+    color: black;
+    list-style: none;
+    font-weight: 500;
+}
+.FooterContainer>div>div+div>ul>li{
+    font-size: 18px;
+    color: rgb(70, 69, 69);
+    list-style: none;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.FooterContainer>div>div+div>ul>li:hover{
+    color:  red;
+}
+.FooterContainer>div>div+div>ul>li>ul{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(156, 155, 155);
+    list-style: none;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.FooterContainer>div>div+div>ul>li>ul>li{
+    cursor: pointer;
+    margin-top: 5px;
+}
+.FooterContainer>div>div+div>ul>li>ul>li:hover{
+    color:  red;
+}
+.FooterList>ul>li>img{
+    /* border: 2px solid blue; */
+    width: 300px;
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+@media all and (max-width: 1200px) {
+    .FooterContainer{
+        display: block;
+    }
+}

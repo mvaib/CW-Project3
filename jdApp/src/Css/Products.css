@@ -1,0 +1,30 @@
+.productCard{
+    /* border: 2px solid blue; */
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding: 17px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(246, 246, 246);
+
+}
+.productCard>div{
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+}
+.productCard>div>img{
+    max-width: 100%;
+    max-height: 100%;
+}

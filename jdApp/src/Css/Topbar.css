@@ -1,0 +1,50 @@
+.topbarContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 237, 237);
+}
+.topbar{
+    /* border: 2px solid blue; */
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    background-color: rgb(238, 237, 237);
+    padding: 0 20px;
+}
+.topbarRight ul{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    color: grey;
+}
+.topbarRight ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+}
+.topbarRight ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+.topbarRight ul li,p{
+    font-size: 11px;
+}
+.topbarLeft p,.topbarLeft p i{
+    font-weight: bold;
+    font-size: 12px;
+}
+@media all and (max-width: 1200px) {
+    .topbarContainer{
+        display: block;
+    }
+}

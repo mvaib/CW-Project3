@@ -1,0 +1,30 @@
+.LoginNavContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+/* nav{
+    border: 2px solid blue;
+} */
+nav>div:nth-child(2){
+    /* border: 2px solid yellow; */
+    position: relative;
+    top: 20px;
+}
+nav>div:nth-child(2)>p{
+    color: grey;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+nav>div:nth-child(2)>p:hover{
+    color: red;
+}
+nav>div:nth-child(2)>p>i{
+    font-size: 25px;
+}
