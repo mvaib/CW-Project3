@@ -5,7 +5,7 @@ CW-Project3  is a public repository focused on a Clone JD e-commerce Application
 
 
 ## Technologies Used
-  - JavaScript: 65.0%
+  - JavaScript: 65.0% (React) as well
   - CSS: 32.6%
   - HTML: 2.4%
 
